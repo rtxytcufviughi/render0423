@@ -2,8 +2,8 @@
 const projectPageURL = process.env.URL || '';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
 const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间（120秒）
 const UUID = process.env.UUID || '33300fce-f7e2-418f-9b3e-55771d3bb9a3';	// 替换UUID，√
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'reger.kjuyr4.net';              // 固定隧道域名，留空即启用临时隧道√
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"272f423eeae1e36c74481733536b08ef","TunnelSecret":"QpFFvwwNSnNlYPSFeDc72d571dbhOJV9NBMPs94qVvo=","TunnelID":"4e0c0c4a-a7cd-4567-bd28-bb4ac3eeae9d"}';                 // 固定隧道json或token，留空即启用临时隧道√
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'aswe.kgfkyfd.eu.org';              // 固定隧道域名，留空即启用临时隧道√
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"6d324bacb114ecfd5ba33954743869b5","TunnelSecret":"YL5fxo4Ew26oP3MrTmUHqtO1YdNUu4Rgv44LoTMiOgk=","TunnelID":"bdb5fdec-9d96-4bb7-b725-a1e0c0636dd9"}';                 // 固定隧道json或token，留空即启用临时隧道√
 const CFIP = process.env.CFIP || 'government.se';             // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
 const NAME = process.env.NAME || 'Vls';                     // 节点名称
